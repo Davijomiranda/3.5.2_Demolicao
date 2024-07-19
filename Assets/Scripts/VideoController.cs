@@ -87,7 +87,7 @@ public class VideoController : MonoBehaviour
         imgCapaVideo.gameObject.SetActive(true);
         videoP.Play();
         textTitle.text = stringTitles[index];
-        //textDesc.text = stringDesc[index];
+        textDesc.text = stringDesc[index];
         videoP.isLooping = true;
         panelBlur.SetActive(true);
         animPanelText.SetTrigger("Start");

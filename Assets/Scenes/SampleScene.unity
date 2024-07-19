@@ -5699,10 +5699,43 @@ MonoBehaviour:
   - {fileID: 161931684, guid: aa5629b117559c0458245ce7a4e2da05, type: 3}
   stringTitles:
   - "Samb\xF3dromo"
-  - "Mergulh\xE3o"
+  - Grota Funda
   - Perimetral
   - "Transol\xEDmpica"
-  stringDesc: []
+  stringDesc:
+  - "Constru\xE7\xE3ode1888,af\xE1bricadeumatradicionalcervejariabrasileirafoiimplodidaem5de 
+    junhode2011paradarlugar\xE0amplia\xE7\xE3odoSamb\xF3dromodoRio,palcodosdesfilesda 
+    escoladesambadofamosoCarnavalcarioca.Olocalfoidefinidocomoinstala\xE7\xE3oesportiva 
+    dosJogosRio2016,reservadoparaalargadaeachegadadamaratonaeascompeti\xE7\xF5esde 
+    tirocomarco.Aquedadosquatropr\xE9diosduroumenosde30segundosetodoomaterial  foireutilizadonaconstru\xE7\xE3odenovasarquibancadas,ampliandoacapacidadede60mil 
+    para72.500lugareserecuperando,quase30anosdepois,oprojetooriginaldoarquiteto 
+    OscarNiemeyer,queprevialadossim\xE9tricosdapassareladosambaAvenidaMarqu\xEAsde 
+    Sapuca\xED."
+  - "Emagostode2011,a\xFAltimaexplos\xE3omarcouaconclus\xE3odaaberturadasduasgaleriasdo 
+    T\xFAneldaGrotaFunda,de1.100metrosdeextens\xE3o,batizadoposteriormentecomoT\xFAnel 
+    Vice-PresidenteJos\xE9Alencar.Essaliga\xE7\xE3o,queeraesperadah\xE1maisde30anos,permitiuo 
+    fimdogargalonotrechoentreasregi\xF5esdeBarradeGuaratibaeRecreiodosBandeirantes, 
+    eacaboucomoisolamentovi\xE1riodaZonaOeste.Cadaumadasduasgaleriastemtr\xEAsfaixas 
+    derolamento,sendoumaexclusivaparaoBRT(BusRapidTransit)Transoeste,primeiro  corredorde\xF4nibus-expressoinauguradonacidade,quereduziupelametadeotempode 
+    viagementreaBarradaTijucaeSantaCruz,naZonaOeste.Em2024,estecorredor  transportavaemm\xE9dia204milpassageirospordia. "
+  - "ParaqueoRioganhassenovoscontornosvalorizandosuabelezanatural,aregi\xE3oportu\xE1riafoi 
+    totalmenterevitalizada.FoiprecisoderrubaroElevadodaPerimentral,umviadutodeconcretoque 
+    impediaacomunicac\xE3odaareacentraldoRiodeJaneirocomomar.Ademoli\xE7\xE3odosquase5kmde 
+    elevadofoihist\xF3ricaefoifeitaporetapas:aprimeiradelasem2013,comumaemblem\xE1tica 
+    contagemregressiva,ea\xFAltima,em2014.Forammaisdeduasdecadasdediscussaosobre 
+    investimentosaseremfeitosparaarevitalizac\xE3odaRegiaoPortuaria.Umadasprincipaisideiaseraa 
+    derrubadadoviaduto,especialmentenotrechodaPracaXV,masfaltavamcondi\xE7\xF5espoliticase 
+    financeirasparaasuaexecuc\xE3o.Aderrubadadoviadutodeconcretosetornouos\xEDmbolodoin\xEDcio 
+    deumanovaeraparaa\xE1reade500hectaresdoPortoque,apartirdeParceriasP\xFAblico-Privadas 
+    (PPPs),p\xF4desertransformadoemPortoMaravilha."
+  - "Ocorredor Transol\xEDmpica integra as obras do sistema de transporte de alta
+    capacidade de  mesmonome,batizado posteriormente como Corredor Presidente Tancredo
+    Neves. Com 26  quil\xF4metros de extens\xE3o, liga o Recreio dos Bandeirantes
+    a Deodoro. A via passa tamb\xE9m  pelos bairros da Barra da Tijuca, Curicica,
+    Col\xF4nia Juliano Moreira, Taquara, Jardim Sulacap,  Vila Militar e Magalh\xE3es
+    Bastos. O BRT Transol\xEDmpica \xE9 formado por 18 esta\xE7\xF5es e tr\xEAs 
+    terminais, que beneficiam, aproximadamente, 50 mil passageiros por dia, com uma
+    redu\xE7\xE3o  no tempo deviagem da ordem decerca de 60%."
   capasVideo:
   - {fileID: 21300000, guid: e82030f4aa8e4b643932a6a0753f4de2, type: 3}
   - {fileID: 21300000, guid: e7f581ff0c0c6814ca45f4ce15a7ce63, type: 3}
@@ -5713,10 +5746,10 @@ MonoBehaviour:
   imgTitulo: {fileID: 49807829}
   imgCapaVideo: {fileID: 1612622882}
   Clips:
-  - {fileID: 32900000, guid: 985f2c759a01f974c965527c8a62844b, type: 3}
-  - {fileID: 32900000, guid: 325adb3300d18444889b0f7b93827dc2, type: 3}
-  - {fileID: 32900000, guid: 63bcb53cc225d3b44a915131f9026f16, type: 3}
-  - {fileID: 32900000, guid: cc2c6727db4852342b0172d0fe844786, type: 3}
+  - {fileID: 32900000, guid: 39c46e704fdd92045a1ad654b8c1b4ec, type: 3}
+  - {fileID: 32900000, guid: 3f03928dba4156947909403e008ee78e, type: 3}
+  - {fileID: 32900000, guid: 493bc58e7b0440c4a920b6c5d8bcea84, type: 3}
+  - {fileID: 32900000, guid: 0ae2c6bff0bf5e740b19909e7572d88b, type: 3}
   ClipIdle: {fileID: 32900000, guid: b2aaa8b0d7412754b8f4a66c85e4bd23, type: 3}
   panelText: {fileID: 1047568366}
   panelBlur: {fileID: 232909953}
