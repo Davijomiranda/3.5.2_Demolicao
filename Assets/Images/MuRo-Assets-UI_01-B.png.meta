@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: 1f521a6b7674f724783702bbee72c099
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 886
+        width: 465
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d12ff6c30c43ee4394602193f847cac
+      internalID: -1213841603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_1
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 173
+        width: 57
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbd1e26e6acc9e4ca3e0d5952673dc6
+      internalID: 603195702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 360
+        height: 817
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86367a4478646794f805916bffac1c8c
+      internalID: -1295974685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_3
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 806
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96292e53b620916409139c9de8db71ca
+      internalID: -1019125456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_4
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 0
+        width: 90
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8c047aa36e2ae4f8a56c2eb99a187a
+      internalID: -325397938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_5
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 729
+        width: 100
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aec7abe0400dc54cbe61e94f7aa24ee
+      internalID: 1073793609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_6
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 200
+        width: 70
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae98319e0cbfef478ee7e6ae4276422
+      internalID: 2102441299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_7
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 675
+        width: 86
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78973286799c8ac4388d34662a00c514
+      internalID: 77603953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_8
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 665
+        width: 100
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839f7d056798fbd41a03a4a5fdcfdc22
+      internalID: -1817866412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_9
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 519
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93901b26113883244b4afd3622549eb6
+      internalID: 1537892402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_10
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 519
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34849b5550f4e04f938db7384e24ea4
+      internalID: 1146010972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_11
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 519
+        width: 6
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea746dfda83a93348b7619c568a6229e
+      internalID: -1146864766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_12
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 519
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8578a6286f5fb354ebd1520061588d11
+      internalID: 655526142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_13
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 496
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36f0fc9c4ff11a4fbbdc9f909080049
+      internalID: 1701287765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_14
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 496
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ccf2417bd85b546bb9daf50c94e6b8
+      internalID: -319295578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_15
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 496
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f599c2fb0ed4a4e897099729a04a7c
+      internalID: 1787586521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_16
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 496
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292476287149bd842a89e5742ec625fb
+      internalID: -2005223587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_17
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 496
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d85a8317155194593d247432784041
+      internalID: 1796926248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_18
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 478
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33edbdddead1c7b46b1a2985b8ab55d6
+      internalID: -241843908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_19
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 478
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff14a20a62b457d4f8d375c1c9a2d026
+      internalID: 1315898970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_20
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 478
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4393935279ec1a4f8686f1ddd15d813
+      internalID: 609798093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_21
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 478
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27407f9671bc464db37e666973b3846
+      internalID: -1402587195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_22
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 478
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2f057a9d0cb2d499249e604176a603
+      internalID: -1980449063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MuRo-Assets-UI_01-B_23
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 17
+        width: 328
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c79b0de5fa48e4388b582c8f01713a
+      internalID: 1333847404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MuRo-Assets-UI_01-B_0: -1213841603
+      MuRo-Assets-UI_01-B_1: 603195702
+      MuRo-Assets-UI_01-B_10: 1146010972
+      MuRo-Assets-UI_01-B_11: -1146864766
+      MuRo-Assets-UI_01-B_12: 655526142
+      MuRo-Assets-UI_01-B_13: 1701287765
+      MuRo-Assets-UI_01-B_14: -319295578
+      MuRo-Assets-UI_01-B_15: 1787586521
+      MuRo-Assets-UI_01-B_16: -2005223587
+      MuRo-Assets-UI_01-B_17: 1796926248
+      MuRo-Assets-UI_01-B_18: -241843908
+      MuRo-Assets-UI_01-B_19: 1315898970
+      MuRo-Assets-UI_01-B_2: -1295974685
+      MuRo-Assets-UI_01-B_20: 609798093
+      MuRo-Assets-UI_01-B_21: -1402587195
+      MuRo-Assets-UI_01-B_22: -1980449063
+      MuRo-Assets-UI_01-B_23: 1333847404
+      MuRo-Assets-UI_01-B_24: 68587257
+      MuRo-Assets-UI_01-B_25: -477560874
+      MuRo-Assets-UI_01-B_26: 855182995
+      MuRo-Assets-UI_01-B_3: -1019125456
+      MuRo-Assets-UI_01-B_4: -325397938
+      MuRo-Assets-UI_01-B_5: 1073793609
+      MuRo-Assets-UI_01-B_6: 2102441299
+      MuRo-Assets-UI_01-B_7: 77603953
+      MuRo-Assets-UI_01-B_8: -1817866412
+      MuRo-Assets-UI_01-B_9: 1537892402
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
