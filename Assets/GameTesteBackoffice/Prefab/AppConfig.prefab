@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1801256699933514042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7905261205012411499}
+  - component: {fileID: 9162268398431592903}
+  - component: {fileID: 5563526162258127856}
+  - component: {fileID: 2253763496320168067}
+  - component: {fileID: 2080438431871985851}
+  m_Layer: 0
+  m_Name: AppConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7905261205012411499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801256699933514042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9162268398431592903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801256699933514042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1347c86263e3e48a88f938597dd1cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appConfig: {fileID: 5563526162258127856}
+  path: C:\Users\wince\OneDrive\Documentos\Museu\Resource\03-5-2-demolicao
+--- !u!114 &5563526162258127856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801256699933514042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c72ab6924050fc4dbd857f488e0f701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: 
+  rootInspector:
+    config:
+      id: 
+      title: 
+      contents_url: 
+      lastSyncDate: 
+      lastContentsUpdate: 
+    app:
+      tokens: []
+      contents: []
+      advcontents: []
+      variables: []
+      configfiles: []
+  idBracelet: 0
+  pathJsonBracelet: "C:\\Users\\wince\\OneDrive\\\xC1rea de Trabalho\\PhytonGlen\\"
+  nameArchiveBracelet: response_
+  braceletModel:
+    id: 0
+    parent_name: 
+    name: 
+    type: 0
+    age: 0
+    gender: 
+    accessibility:
+      libras: 0
+      low_vision: 0
+      pcd: 0
+    nationality: 
+    region: 
+    city: 
+    language: 
+    avatar:
+      keyBody: 0
+      keyColorBody: 0
+      keyOlho: 0
+      keyBodyFat: 0
+      keyBodyMuscle: 0
+      keyBodyFTorso: 0
+      keyBodyFLegs: 0
+      keyBodyFFat: 0
+      keyBodyFMuscle: 0
+      keyHair: 0
+      keyColorHair: 0
+      keyChapeu: 0
+      keyProtese: 0
+      keyAcessorioRosto: 0
+      keyAcessorioTorso: 0
+      keyAcessorioBraco: 0
+      keyCalca: 0
+      keyColorCalca: 0
+      keyCamiseta: 0
+      keyColorCamiseta: 0
+      keyTenis: 0
+    group_hash: 
+    register_date: 
+    register_ok: 
+--- !u!114 &2253763496320168067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801256699933514042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ed9c54183b7734aa3b0cd006360920, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _appConfig: {fileID: 0}
+  urlBackOffice: 
+  textsTranslates:
+  - text: {fileID: 0}
+    id: text_content1
+  - text: {fileID: 0}
+    id: title_content1
+  - text: {fileID: 0}
+    id: text_content1
+  - text: {fileID: 0}
+    id: text_content1
+  - text: {fileID: 0}
+    id: title_content2
+  - text: {fileID: 0}
+    id: title_content3
+  - text: {fileID: 0}
+    id: title_content4
+  - text: {fileID: 0}
+    id: text_content1
+  - text: {fileID: 0}
+    id: description_content1
+  - text: {fileID: 0}
+    id: description_content2
+  - text: {fileID: 0}
+    id: description_content3
+  - text: {fileID: 0}
+    id: description_content4
+  textsCodeBack:
+  - code: "\xC1"
+    letter: '&Aacute;'
+  - code: "\xC9"
+    letter: '&Eacute;'
+  - code: "\xCD"
+    letter: '&Iacute;'
+  - code: "\xD3"
+    letter: '&Oacute;'
+  - code: "\xDA"
+    letter: '&Uacute;'
+  - code: "\xE1"
+    letter: '&aacute;'
+  - code: "\xE9"
+    letter: '&eacute;'
+  - code: "\xED"
+    letter: '&iacute;'
+  - code: "\xF3"
+    letter: '&oacute;'
+  - code: "\xFA"
+    letter: '&uacute;'
+  - code: "\xC2"
+    letter: '&Acirc;'
+  - code: "\xCA"
+    letter: '&Ecirc;'
+  - code: "\xD4"
+    letter: '&Ocirc;'
+  - code: "\xE2"
+    letter: '&acirc;'
+  - code: "\xEA"
+    letter: '&ecirc;'
+  - code: "\xF4"
+    letter: '&ocirc;'
+  - code: "\xC0"
+    letter: '&Agrave;'
+  - code: "\xE0"
+    letter: '&agrave;'
+  - code: "\xDC"
+    letter: '&Uuml;'
+  - code: "\xFC"
+    letter: '&uuml;'
+  - code: "\xC7"
+    letter: '&Ccedil;'
+  - code: "\xE7"
+    letter: '&ccedil;'
+  - code: "\xC3"
+    letter: '&Atilde;'
+  - code: "\xD5"
+    letter: '&Otilde;'
+  - code: "\xE3"
+    letter: '&atilde;'
+  - code: "\xF5"
+    letter: '&otilde;'
+  - code: "\xD1"
+    letter: '&Ntilde;'
+  - code: "\xF1"
+    letter: '&ntilde;'
+  - code: '&'
+    letter: '&amp;'
+  - code: '"'
+    letter: '&quot;'
+  - code: <
+    letter: '&lt;'
+  - code: '>'
+    letter: '&gt;'
+--- !u!114 &2080438431871985851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801256699933514042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed445a4ceac7b314f8f0df5a86f0f8ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playGame:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
