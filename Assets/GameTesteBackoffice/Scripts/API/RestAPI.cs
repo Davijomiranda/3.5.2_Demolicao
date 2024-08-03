@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.IO;
 using JetBrains.Annotations;
+using UnityEngine.Serialization;
 
 public class RestAPI : MonoBehaviour
 {
@@ -17,8 +18,10 @@ public class RestAPI : MonoBehaviour
     {
         public string Tokens;
     }
-
-    [CanBeNull] public string path;
+    /// <summary>
+    /// folder path to download the appconfig.json program YdreamsSynchronizer
+    /// </summary>
+    [CanBeNull] public string pathFolderYdreamsSynchronizerDownload;
 
     private void Awake()
     {
@@ -27,11 +30,11 @@ public class RestAPI : MonoBehaviour
 
     void GetLocalData()
     {
-        var jsonPath = Path.Combine(path, "appconfig.json");
+        var jsonPath = Path.Combine(pathFolderYdreamsSynchronizerDownload, "appconfig.json");
         var jsonText = File.ReadAllText(jsonPath);
         Debug.Log(jsonText);
         appConfig.SetJson(jsonText);
-        appConfig.path = path;
+        appConfig.path = pathFolderYdreamsSynchronizerDownload;
     }
 }
 

@@ -9,7 +9,10 @@ public class AppConfig : MonoBehaviour
     public string path;
     public RootObject rootInspector;
     public int idBracelet;
-    public string pathJsonBracelet;
+    /// <summary>
+    /// folder where the bracelet json is being downloaded
+    /// </summary>
+    public string pathDownloadedBraceletJson;
     public string nameArchiveBracelet;
     public BraceletModel braceletModel;
 

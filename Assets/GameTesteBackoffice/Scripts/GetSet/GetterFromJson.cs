@@ -201,7 +201,7 @@ public class GetterFromJson : MonoBehaviour
 
     public BraceletModel LoadJsonBracelet()
     {
-        var path = $"{_appConfig.pathJsonBracelet}{_appConfig.nameArchiveBracelet}{_appConfig.idBracelet}.json";
+        var path = $"{_appConfig.pathDownloadedBraceletJson}{_appConfig.nameArchiveBracelet}{_appConfig.idBracelet}.json";
         if (File.Exists(path))
         {
             try
@@ -226,7 +226,7 @@ public class GetterFromJson : MonoBehaviour
 
     public void SaveJsonBracelet(BraceletModel bracelet, Action onSuccess, Action<string> onFailure)
     {
-        var path = $"{_appConfig.pathJsonBracelet}{_appConfig.nameArchiveBracelet}{_appConfig.idBracelet}.json";
+        var path = $"{_appConfig.pathDownloadedBraceletJson}{_appConfig.nameArchiveBracelet}{_appConfig.idBracelet}.json";
         try
         {
             string json = JsonUtility.ToJson(bracelet);
