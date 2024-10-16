@@ -14,7 +14,11 @@ public class VideoController : MonoBehaviour
     public Sprite[] frameDetonador;
     public Sprite[] frameTexto;
     public Sprite[] frameTitulo;
+    public Sprite[] frameDetalhe1;
+    public Sprite[] frameDetalhe2;
+    public Sprite[] frameDetalhe3;
     public string[] stringTitles; //titulos dos paineis
+    public string[] stringTitlesDetalhes; //titulos dos paineis
     public string[] stringDesc; //descricões
     public Sprite[] capasVideo; //imagens videos
 
@@ -22,6 +26,9 @@ public class VideoController : MonoBehaviour
     public Image imgTexto;
     public Image imgTitulo;
     public Image imgCapaVideo;
+    public Image imgDetalhe1;
+    public Image imgDetalhe2;
+    public Image imgDetalhe3;
 
     public VideoClip[] Clips; //videos
     public VideoClip ClipIdle;
@@ -35,18 +42,19 @@ public class VideoController : MonoBehaviour
     public Animator animPanelSmoke;
     public Animator animPanelWarning;
     public Animator animPanelTrans;
+    public Animator animDetonador;
 
     private bool detonar = true;
+    private bool countVideo = false;
+    private bool activeButton = true;
     private float timerVideo;
 
-    public LerpAnim btAnim1;
-    public LerpAnim btAnim2;
-    public LerpAnim btAnim3;
-    public LerpAnim btAnim4;
-
     public TextMeshProUGUI textTitle;
+    public TextMeshProUGUI textTitle_detalhes;
     public TextMeshProUGUI textDesc;
     public TextMeshProUGUI textDetonador;
+    public TextMeshProUGUI textDetonador2;
+
     public GetterFromJson getter;
     public const string keyVideoIdle = "idle";
     public const string keyVideoSambodromo = "videoclip_content1";
@@ -71,11 +79,18 @@ public class VideoController : MonoBehaviour
     public List<string> videos;
     public List<string> images;
     public List<string> descriptions;
-    
+    public GameObject[] mapa;
+
+    public bool BackOffice;
+
+    private bool fumaca = true;
 
     private void Start()
     {
-        BackEnd("pt");
+        if (BackOffice)
+        {
+            BackEnd("pt");
+        }
         SetVideo();
     }
 
@@ -117,71 +132,108 @@ public class VideoController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A) && activeButton)
         {
             if (detonar)
             {
-                btAnim1.Button();
                 detonar = false;
-                Invoke("Detonar", 0);
+                fumaca = false;
+                animDetonador.SetTrigger("start");
+                Invoke("Detonar", 1f);
+                Invoke("ReactiveFumaca", 2);
                 //Detonar();
             }
             else
             {
-                animPanelSmoke.SetTrigger("Start");
+                if (fumaca)
+                {
+                    fumaca = false;
+                    animPanelSmoke.SetTrigger("Start");
+                    Invoke("ReactiveFumaca", 2);
+                }
             }
         }
-        if (!detonar)
+        if (countVideo)
         {
             timerVideo -= Time.deltaTime;
             if (timerVideo < 0)
             {
+                countVideo = false;
+                activeButton = false;
                 timerVideo = 0;
                 animPanelTrans.SetTrigger("Start");
-                Invoke(nameof(SetVideo), 0.2f);
-                detonar = true;                
+                Invoke(nameof(SetVideo), 0.5f);
+                Invoke(nameof(ReactiveDetonador), 0.8f);
             }
         }
     }
 
+    private void ReactiveFumaca()
+    {
+        fumaca = true;
+    }
+
+    void ReactiveDetonador()
+    {
+        animDetonador.SetTrigger("start");
+        activeButton = true;
+    }
+
     private void SetVideo()
     {
-        // videoP.clip = Clips[index];
-        getter.GetVideoFromBackOffice(getter.GetPathVideoFromJson(videos[index], getter._appConfig.braceletModel.language), videoP,
-            callback =>
-            {
-                // timerVideo = (float)callback.length;
-                getter.GetImageFromBackOffice(getter.GetPathImageFromJson(images[index], getter._appConfig.braceletModel.language), callback =>
-                {
-                    imgCapaVideo.sprite = callback;
-                    imgCapaVideo.gameObject.SetActive(true);
-                    videoP.Play();
-                    textTitle.text = getter.GetStringFromJson(titles[index]);
-                    textDesc.text = getter.GetStringFromJson(descriptions[index]);
-                    videoP.isLooping = true;
-                    panelBlur.SetActive(true);
-                    animPanelText.SetTrigger("Start");
-                    Invoke("SetImages", 0.2f);
-                    videoP.Pause();
-                    detonar = true;
-                    timerVideo = (float)videoP.length;
-                });
-            });
-        // imgCapaVideo.sprite = capasVideo[index];
-        // textTitle.text = stringTitles[index];
-        // textDesc.text = stringDesc[index];
-        /*foreach (GameObject pn in panels)
+        if (BackOffice)
         {
-            pn.transform.GetChild(1).gameObject.SetActive(false);
-            pn.SetActive(false);
-        }*/
-        //pnAtual = panels[index];
-        //pnAtual.SetActive(true);
+            // videoP.clip = Clips[index];
+            getter.GetVideoFromBackOffice(getter.GetPathVideoFromJson(videos[index], getter._appConfig.braceletModel.language), videoP,
+                callback =>
+                {
+                    // timerVideo = (float)callback.length;
+                    getter.GetImageFromBackOffice(getter.GetPathImageFromJson(images[index], getter._appConfig.braceletModel.language), callback =>
+                    {
+                        imgCapaVideo.sprite = callback;
+                        imgCapaVideo.gameObject.SetActive(true);
+                        videoP.Play();
+                        textTitle.text = getter.GetStringFromJson(titles[index]);
+                        textDesc.text = getter.GetStringFromJson(descriptions[index]);
+                        videoP.isLooping = true;
+                        panelBlur.SetActive(true);
+                        animPanelText.SetTrigger("Start");
+                        Invoke("SetImages", 0.2f);
+                        videoP.Pause();
+                        detonar = true;
+                        timerVideo = (float)videoP.length;
+                        SetMapa(index);
+                        
+                    });
+                });
+        }
+        else
+        {
+            videoP.clip = Clips[index];
+            imgCapaVideo.sprite = capasVideo[index];
+            imgCapaVideo.gameObject.SetActive(true);
+            imgTexto.sprite = frameTexto[index];
+            imgDetalhe1.sprite = frameDetalhe1[index];
+            imgDetalhe2.sprite = frameDetalhe2[index];
+            imgDetalhe3.sprite = frameDetalhe3[index];
+            videoP.Play();
+            textTitle.text = stringTitles[index];
+            textTitle_detalhes.text = stringTitlesDetalhes[index];
+            textDesc.text = stringDesc[index];
+            videoP.isLooping = true;
+            panelBlur.SetActive(true);
+            animPanelText.SetTrigger("Start");
+            Invoke("SetImages", 0.2f);
+            videoP.Pause();
+            SetMapa(index);
+            detonar = true;
+            timerVideo = (float)videoP.length;
+        }
     }
 
     public void Detonar()
     {
-        //videoP.clip = Clips[index];        
+        //videoP.clip = Clips[index];
         panelText.SetActive(true);
         panelBlur.SetActive(false);
         animPanelText.SetTrigger("Start");
@@ -192,7 +244,7 @@ public class VideoController : MonoBehaviour
     void PlaySmoke()
     {
         animPanelSmoke.SetTrigger("Start");
-        Invoke(nameof(PlayVideo), 2);
+        Invoke(nameof(PlayVideo), 1);
     }
 
     void PlayVideo()
@@ -206,12 +258,21 @@ public class VideoController : MonoBehaviour
             index++;
         else index = 0;
         detonar = false;
+        countVideo = true;
+    }
+    public void SetMapa(int i)
+    {
+        foreach (var item in mapa)
+        {
+            item.SetActive(false);
+        }
+        mapa[i].SetActive(true);
     }
 
     private void SetImages()
     {
         panelText.SetActive(false);
-        imgDetonador.sprite = frameDetonador[index];
+        //imgDetonador.sprite = frameDetonador[index];
         imgTexto.sprite = frameTexto[index];
         imgTitulo.sprite = frameTitulo[index];
     }
